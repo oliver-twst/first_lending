@@ -1,0 +1,231 @@
+@media (max-width: 1156px) {
+    .services_items {
+        display: block;
+    }
+    .services_item {
+        max-width: 80%;
+        min-height: 330px;
+        margin: 30px auto;
+    }
+    .form_inner {
+        background-image: url();
+    }
+    .news__inner {
+        display: block;
+    }
+    .news__slider {
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+    .news__blog {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .news__blog:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .news__images,
+    .news__blog-text {
+        float: left;
+        margin-right: 50px;
+    }
+    .news__blog-text {
+        width: 50%;
+    }
+    .news {
+        padding-bottom: 60px;
+    }
+    .form_box-left {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .form_box-right {
+        margin-right: 100px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer__inner {
+        display: block;
+        /*делаем строчным элементом*/
+    }
+    .footer__map {
+        max-width: 100%;
+    }
+    .footer__info {
+        max-width: 465px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider .slick-btn {
+        display: none !important;
+    }
+    .services_top,
+    .news__top {
+        display: block;
+    }
+    .services_title-box,
+    .form_title-box,
+    .news__title-box {
+        padding-left: 0;
+        text-align: center;
+        margin: 0 30px;
+    }
+    .services_title-box:before,
+    .form_title-box:before,
+    .news_title-box:before {
+        display: none;
+    }
+    .services_btn,
+    .news__btn {
+        text-align: center;
+    }
+    .form_box-inner {
+        display: block;
+    }
+    .form_box-left {
+        max-width: 100%;
+    }
+    .form_box-right {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .form_box-inner .jq-selectbox__select {
+        margin-bottom: 0px;
+    }
+    .form {
+        margin-bottom: 25px;
+    }
+    .advantages__inner {
+        display: block;
+    }
+    .advantages-item {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .form_box-inner .jq-selectbox__select {
+        height: 40px;
+        border: 1px solid #e6e6e6;
+        padding-left: 10px;
+    }
+    .jq-selectbox__trigger-arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .header_btn {
+        float: none;
+    }
+    .header_contacts {
+        text-align: center;
+    }
+    /* .header_btn:before {
+        display: none;
+    } */
+    .header__btn-menu {
+        display: block;
+        margin-top: 18px;
+    }
+    .menu ul {
+        display: none;
+        position: absolute;
+        /* overflow: visible; */
+        left: 0;
+        right: 0;
+        margin-top: 10px;
+        z-index: 50;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        height: 10px;
+    }
+    .menu a {
+        display: block;
+        background-color: #ffc222;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .menu li+li {
+        padding-left: 0px;
+    }
+    .form_box-inner .jq-selectbox__select {
+        margin-bottom: 0px;
+    }
+    .news__images {
+        float: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .services_item {
+        max-width: 100%;
+        min-height: 375px;
+        margin: 30px auto;
+    }
+    .news__images {
+        float: none;
+    }
+    .news__slider-inner .slick-btn {
+        bottom: -90px;
+    }
+}
+
+@media (max-width: 540px) {
+    .news__slider {
+        padding: 50px 15px 25px 25px;
+    }
+    .news__slider:before {
+        left: 25px;
+    }
+    .news__slider-inner .slick-next {
+        right: -20px;
+    }
+    .news__slider-inner .slick-prev {
+        right: 35px;
+    }
+    .news__images {
+        float: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .slider_title {
+        font-size: 24px;
+    }
+    .slider_text {
+        font-size: 16px;
+    }
+    .menu ul {
+        position: absolute;
+    }
+}
+
+@media (max-width: 400px) {
+    .header_btn:before {
+        display: block;
+    }
+    .advantages-item {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header_email {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .menu ul {
+        display: block !important;
+    }
+}
